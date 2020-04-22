@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="estiloCalificacion"
+        parent="android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+
+
 </resources>

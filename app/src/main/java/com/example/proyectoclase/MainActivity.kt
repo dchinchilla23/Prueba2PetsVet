@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Eres el mejor", Toast.LENGTH_SHORT).show()
             ///*/ me sirve para moverme entre las pantallas con ela ejecucion de un boto ///
 
-            var i = Intent(this, pantalla2::class.java)
+            var i = Intent(this, ListaServicios::class.java)
 
             startActivity(i)
         
