@@ -15,9 +15,18 @@ class pantalla2 : AppCompatActivity() {
 
     }
 
-    fun enter2(view: View) {
+    fun Rgr1(view: View) {
         var i =  Intent ( this, MainActivity::class.java)
 
         startActivity(i)
     }
+
+
+    fun Sig2(view: View) {
+        var i =  Intent ( this, ListaServicios::class.java)
+
+        startActivity(i)
+    }
+
+
 }

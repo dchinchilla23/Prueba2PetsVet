@@ -27,6 +27,7 @@
         app:layout_constraintGuide_end="33dp" />
 
     <ImageView
+        android:background="@drawable/buttonronder"
         android:id="@+id/elslvServicio"
         android:layout_width="190dp"
         android:layout_height="123dp"

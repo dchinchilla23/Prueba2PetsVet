@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation
+import android.widget.EditText
 import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
 import kotlinx.android.synthetic.*
@@ -28,6 +29,14 @@ class MainActivity : AppCompatActivity() {
             var i = Intent(this, ListaServicios::class.java)
 
             startActivity(i)
+
         
     }
+
+    fun Register(view: View) {
+        var i =  Intent ( this, pantalla2::class.java)
+
+        startActivity(i)
+    }
 }
+

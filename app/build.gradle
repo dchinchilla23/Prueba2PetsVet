@@ -26,6 +26,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.airbnb.android:lottie:3.4.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
@@ -35,4 +36,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implentation 'com.google.firebase:firebase-database:19.3.1'
+    implentation 'com.google.firebase:firebase-auth:19.3.1'
+
+    apply plugin: 'com.google.gms.google-services'
+
 }

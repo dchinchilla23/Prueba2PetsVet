@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#0B0A0A"
-        android:onClick="enter2"
+        android:onClick="Rgr1"
         android:text="Regresar"
         android:textColor="@color/colorPrimary"
         android:textSize="30dp"
@@ -48,7 +48,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#0B0B0B"
-        android:text="Sigueinte"
+        android:onClick="Sig2"
+        android:text="Siguiente"
         android:textColor="@color/colorPrimary"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,5 +58,38 @@
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="usuario"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="pasword"
+        android:textColorHint="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:background="black"
+        android:text="Login"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="330dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
